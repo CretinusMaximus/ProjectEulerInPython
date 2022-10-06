@@ -4,15 +4,16 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
-def sum35(number):
+def sum_multiples_3_or_5(number):
     total = 0
     x = 0
     while x < number:
-        x+=1
-        if x % 3 == 0 or x % 5 == 0:
-            total += x
+      if x % 3 == 0 or x % 5 == 0:
+        total += x
+      x+=1
+
     return total
 
-print(sum35(1000))
+print(sum_multiples_3_or_5(1000))
 
-# Answer: 234168
+# Answer: 233168
