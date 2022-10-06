@@ -14,3 +14,5 @@ def sum35(number):
     return total
 
 print(sum35(1000))
+
+# Answer: 234168
